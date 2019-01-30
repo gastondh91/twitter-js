@@ -6,4 +6,5 @@ router.get('/', function (req, res) {
   let datos = tweetBank.list();
   res.render( 'index', { tweets: datos } );
 });
+
 module.exports = router;
