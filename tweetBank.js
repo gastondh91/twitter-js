@@ -31,10 +31,5 @@ function add (name, content) {
     module.exports.add( getFakeName(), getFakeTweet() );
   }
 
-    add('gastoncito', 'hace un calor de cagarse')
-    add('magui', 'dejate de quejar puto')
-    add('chino del super', 'polke no hay polke')
-
-    console.log(list())
 
   //console.log(data)
